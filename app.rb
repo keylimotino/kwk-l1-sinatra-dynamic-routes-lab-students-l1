@@ -12,4 +12,6 @@ class App < Sinatra::Base
     @product = @number * @number
     "#{@product}"
   end
+
+  get "/:"
 end
